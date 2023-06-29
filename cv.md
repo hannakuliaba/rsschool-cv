@@ -1,5 +1,9 @@
 # **Hanna Kuliaba**
 ## Contact information
+**Location:** Warsaw, Poland
+**E-mail:** hanna.kuliaba@gmail.com
+**GitHub:** hannakuliaba
+**Telegram:** annakulyabo
 ## About me
 An ambitious graduate of management, I am always ready for continuous development, for learning something new.
 
