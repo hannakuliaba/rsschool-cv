@@ -1,4 +1,135 @@
 body {
 	margin: 0;
 	padding: 0;
+	min-height: 100vh;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.5;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+* {
+	box-sizing: border-box;
+}
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+.nav-list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
+	flex-wrap: wrap;
+}
+html {
+	scroll-behavior: smooth; 
+}
+.nav-link {
+	padding: 0 20px;
+	line-height: 50px;
+	text-decoration: none;
+	transition: .3s;
+}
+.nav-link:hover {
+	text-decoration: underline;
+}
+.main-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+ .section {
+	width: 50%;
+	padding: 10px;
+}
+@media (max-width: 768px) {
+	.section {
+	  width: 100%;
+	}
+}
+figure {
+	display: block;
+	margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 40px;
+   margin-inline-end: 40px;
+}
+.photo-profile {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	
+}
+img {
+	overflow-clip-margin: content-box;
+	overflow: clip;
+}
+.section-profile{
+	display: flex;
+   justify-content: space-around;
+   width: 100%;
+   padding: 50px 30px 35px;
+   border-bottom: 5px solid #d7d1c9;
+}
+.section-profile-text {
+	display: flex;
+	flex-direction: column;
+   justify-content: center;
+   align-content: center;
+   text-align: center;
+}
+.pre{
+	padding: 0;
+	margin: 0;
+	background-color: #D3D3D3;
+}
+pre {
+	display: block;
+	margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+section {
+	display: block;
+}
+.footer-container {
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer-image {
+	width: 70px;
+   margin: 0 10px;
+}
+.footer {
+	background-color: #C4A484;
+}
+.text-footer {
+	padding: 0 20px;
+	line-height: 50px;
+	text-decoration: none;
+	transition: .3s;
+}
+.project-photo {
+	width: 90%;
+	height: 300px;
+	margin: 0 10px;
+	object-fit: cover;
+	border: 1px solid grey;
+}
+.name-project {
+	text-align: left;
+}
+.section-title.first-title {
+	position: relative;
+   padding: 0;
+   margin-bottom: 20px;
+   font-size: 40px;
+   font-weight: 700;
+   letter-spacing: 10px;
+   line-height: 50px;
 }
