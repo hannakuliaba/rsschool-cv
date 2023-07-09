@@ -14,3 +14,21 @@ body {
 	max-width: 1440px;
 	margin: 0 auto;
 }
+.nav-list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
+}
+html {
+	scroll-behavior: smooth; 
+}
+.nav-link {
+	padding: 0 20px;
+	line-height: 50px;
+	text-decoration: none;
+	transition: .3s;
+}
+.nav-link:hover {
+	text-decoration: underline;
+}
