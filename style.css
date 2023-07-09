@@ -39,6 +39,7 @@ html {
 }
  .section {
 	width: 50%;
+	padding: 10px;
 }
 @media (max-width: 768px) {
 	.section {
@@ -75,4 +76,14 @@ img {
    justify-content: center;
    align-content: center;
    text-align: center;
+}
+.pre{
+	padding: 0;
+	margin: 0;
+}
+pre {
+	display: block;
+}
+section {
+	display: block;
 }
