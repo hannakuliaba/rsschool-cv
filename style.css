@@ -19,6 +19,7 @@ body {
 	justify-content: flex-end;
 	align-items: center;
 	list-style: none;
+	flex-wrap: wrap;
 }
 html {
 	scroll-behavior: smooth; 
