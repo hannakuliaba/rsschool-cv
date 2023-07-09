@@ -80,10 +80,30 @@ img {
 .pre{
 	padding: 0;
 	margin: 0;
+	background-color: #D3D3D3;
 }
 pre {
 	display: block;
 }
 section {
 	display: block;
+}
+.footer-container {
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer-image {
+	width: 70px;
+   margin: 0 10px;
+}
+.footer {
+	background-color: #C4A484;
+}
+.text-footer {
+	padding: 0 20px;
+	line-height: 50px;
+	text-decoration: none;
+	transition: .3s;
 }
